@@ -75,18 +75,26 @@ h3{
  header{
    background-color:#063852;
    color: white;
+   left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
    
  }
 
  nav{
-   display: inline-block;
    padding: 40px;
-   width: 300px;
- }
+   width: 1140px;
+   margin: 0 auto;
+}
+
 
  .logo{
-   width: 250px;
-   float: left;
+  width: 250px;
+  float: left;
  }
 
  .logo h2{
@@ -95,10 +103,10 @@ h3{
   }
 
  .main-nav{
-   max-width: 700px;
-   margin-top: 10px;
-   margin-left: 550px;
-   width: 700px;
+  max-width: 700px;
+  margin-top: 10px;
+  margin-left: 550px;
+  width: 700px;
  }
 
 
@@ -116,6 +124,13 @@ h3{
   .hero{
     background-color: #011A27;
     height: 550px;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw
   }
   .hero-content{
     width: 600px;
@@ -169,7 +184,6 @@ h3{
 
 .box-right{
   float: right;
-  margin-top: ;
   margin-right: 100px;
 }
   /* footer */
@@ -179,9 +193,8 @@ h3{
     background-color: #063852;
     
   }
-  .footer-content
-  {float: left;
-    
+  .footer-content{
+    float: left;  
   }
   .footer-content p{
     font-size: 12px;
